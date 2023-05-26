@@ -1,0 +1,440 @@
+BDD100K
+
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/datasets/_base_dataset.py", line 92, in get_raw_seq_data
+    raw_gt_data = self._load_raw_file(tracker, seq, is_gt=True)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/datasets/bdd100k.py", line 119, in _load_raw_file
+    data = sorted(data, key=lambda x: x['index'])
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/datasets/bdd100k.py", line 119, in <lambda>
+    data = sorted(data, key=lambda x: x['index'])
+TypeError: string indices must be integers
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/eval.py", line 81, in evaluate
+    results = pool.map(_eval_sequence, seq_list)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+TypeError: string indices must be integers
+
+
+
+
+
+BDD100K
+
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/datasets/_base_dataset.py", line 92, in get_raw_seq_data
+    raw_gt_data = self._load_raw_file(tracker, seq, is_gt=True)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/datasets/bdd100k.py", line 119, in _load_raw_file
+    data = sorted(data, key=lambda x: x['index'])
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/datasets/bdd100k.py", line 119, in <lambda>
+    data = sorted(data, key=lambda x: x['index'])
+TypeError: string indices must be integers
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/eval.py", line 81, in evaluate
+    results = pool.map(_eval_sequence, seq_list)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+TypeError: string indices must be integers
+
+
+
+
+
+BDD100K
+
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/datasets/_base_dataset.py", line 92, in get_raw_seq_data
+    raw_gt_data = self._load_raw_file(tracker, seq, is_gt=True)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/datasets/bdd100k.py", line 119, in _load_raw_file
+    data = sorted(data, key=lambda x: x['index'])
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/datasets/bdd100k.py", line 119, in <lambda>
+    data = sorted(data, key=lambda x: x['index'])
+KeyError: 'index'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/eval.py", line 81, in evaluate
+    results = pool.map(_eval_sequence, seq_list)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+KeyError: 'index'
+
+
+
+
+
+BDD100K
+
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/datasets/_base_dataset.py", line 92, in get_raw_seq_data
+    raw_gt_data = self._load_raw_file(tracker, seq, is_gt=True)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/datasets/bdd100k.py", line 142, in _load_raw_file
+    and ann['attributes']['Crowd']):
+KeyError: 'Crowd'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/eval.py", line 81, in evaluate
+    results = pool.map(_eval_sequence, seq_list)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+KeyError: 'Crowd'
+
+
+
+
+
+BDD100K
+
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 121, in worker
+    result = (True, func(*args, **kwds))
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/datasets/_base_dataset.py", line 93, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/datasets/bdd100k.py", line 155, in _load_raw_file
+    for i in keep_ids]).astype(int)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/datasets/bdd100k.py", line 155, in <listcomp>
+    for i in keep_ids]).astype(int)
+KeyError: '0None'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/eval.py", line 81, in evaluate
+    results = pool.map(_eval_sequence, seq_list)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 268, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 657, in get
+    raise self._value
+KeyError: '0None'
+
+
+
+
+
+MotChallenge2DBox
+
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 121, in worker
+    result = (True, func(*args, **kwds))
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/eval.py", line 195, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 356, in get_preprocessed_seq_data
+    'timestep %i.' % (np.max(tracker_classes), raw_data['seq'], t))
+trackeval.utils.TrackEvalException: Evaluation is only valid for pedestrian class. Non pedestrian class (12) found in sequence MOT17-09-SDP at timestep 0.
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/eval.py", line 81, in evaluate
+    results = pool.map(_eval_sequence, seq_list)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 268, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 657, in get
+    raise self._value
+trackeval.utils.TrackEvalException: Evaluation is only valid for pedestrian class. Non pedestrian class (12) found in sequence MOT17-09-SDP at timestep 0.
+
+
+
+
+
+MotChallenge2DBox
+
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 121, in worker
+    result = (True, func(*args, **kwds))
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/eval.py", line 195, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 324, in get_preprocessed_seq_data
+    self._check_unique_ids(raw_data)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/datasets/_base_dataset.py", line 315, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: dancetrack0035, frame: 1, ids: 0 1 2 3 4 5 6)
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/eval.py", line 81, in evaluate
+    results = pool.map(_eval_sequence, seq_list)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 268, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 657, in get
+    raise self._value
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: dancetrack0035, frame: 1, ids: 0 1 2 3 4 5 6)
+
+
+
+
+
+MotChallenge2DBox
+
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 121, in worker
+    result = (True, func(*args, **kwds))
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/eval.py", line 195, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 356, in get_preprocessed_seq_data
+    'timestep %i.' % (np.max(tracker_classes), raw_data['seq'], t))
+trackeval.utils.TrackEvalException: Evaluation is only valid for pedestrian class. Non pedestrian class (9) found in sequence MOT17-05-SDP at timestep 0.
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/eval.py", line 81, in evaluate
+    results = pool.map(_eval_sequence, seq_list)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 268, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 657, in get
+    raise self._value
+trackeval.utils.TrackEvalException: Evaluation is only valid for pedestrian class. Non pedestrian class (9) found in sequence MOT17-05-SDP at timestep 0.
+
+
+
+
+
+MotChallenge2DBox
+
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 121, in worker
+    result = (True, func(*args, **kwds))
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/eval.py", line 195, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 356, in get_preprocessed_seq_data
+    'timestep %i.' % (np.max(tracker_classes), raw_data['seq'], t))
+trackeval.utils.TrackEvalException: Evaluation is only valid for pedestrian class. Non pedestrian class (9) found in sequence MOT17-05-SDP at timestep 0.
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/eval.py", line 81, in evaluate
+    results = pool.map(_eval_sequence, seq_list)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 268, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 657, in get
+    raise self._value
+trackeval.utils.TrackEvalException: Evaluation is only valid for pedestrian class. Non pedestrian class (9) found in sequence MOT17-05-SDP at timestep 0.
+
+
+
+
+
+MotChallenge2DBox
+
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 121, in worker
+    result = (True, func(*args, **kwds))
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/eval.py", line 195, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 356, in get_preprocessed_seq_data
+    'timestep %i.' % (np.max(tracker_classes), raw_data['seq'], t))
+trackeval.utils.TrackEvalException: Evaluation is only valid for pedestrian class. Non pedestrian class (9) found in sequence MOT17-05-SDP at timestep 0.
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/eval.py", line 81, in evaluate
+    results = pool.map(_eval_sequence, seq_list)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 268, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 657, in get
+    raise self._value
+trackeval.utils.TrackEvalException: Evaluation is only valid for pedestrian class. Non pedestrian class (9) found in sequence MOT17-05-SDP at timestep 0.
+
+
+
+
+
+MotChallenge2DBox
+
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 121, in worker
+    result = (True, func(*args, **kwds))
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/eval.py", line 195, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 356, in get_preprocessed_seq_data
+    'timestep %i.' % (np.max(tracker_classes), raw_data['seq'], t))
+trackeval.utils.TrackEvalException: Evaluation is only valid for pedestrian class. Non pedestrian class (9) found in sequence MOT17-05-SDP at timestep 0.
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/eval.py", line 81, in evaluate
+    results = pool.map(_eval_sequence, seq_list)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 268, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 657, in get
+    raise self._value
+trackeval.utils.TrackEvalException: Evaluation is only valid for pedestrian class. Non pedestrian class (9) found in sequence MOT17-05-SDP at timestep 0.
+
+
+
+
+
+MotChallenge2DBox
+
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 121, in worker
+    result = (True, func(*args, **kwds))
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/eval.py", line 195, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 356, in get_preprocessed_seq_data
+    'timestep %i.' % (np.max(tracker_classes), raw_data['seq'], t))
+trackeval.utils.TrackEvalException: Evaluation is only valid for pedestrian class. Non pedestrian class (9) found in sequence MOT17-05-SDP at timestep 0.
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/project/MOTRv2/MOTRv3/TrackEval/trackeval/eval.py", line 81, in evaluate
+    results = pool.map(_eval_sequence, seq_list)
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 268, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/mnt/dolphinfs/hdd_pool/docker/user/hadoop-vacv/yanfeng/software/anaconda3/envs/detr/lib/python3.7/multiprocessing/pool.py", line 657, in get
+    raise self._value
+trackeval.utils.TrackEvalException: Evaluation is only valid for pedestrian class. Non pedestrian class (9) found in sequence MOT17-05-SDP at timestep 0.
+
+
+
+
+
